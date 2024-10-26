@@ -19,7 +19,9 @@ A weather app that tracks and displays minimum, maximum, average, and real-time 
 ### A Go through
 
 Start the Project using following command
+
 npm start 
+
 It will start running on localhost 3000 on the default browser
 
 ![alt text](image-1.png)
