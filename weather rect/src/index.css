@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #1e1e2f;
+  color: #ffffff;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  padding: 20px;
+  background: linear-gradient(to bottom, rgba(0,0,0,0.6), rgba(0,0,0,0.8)), url('./assets/sunset.jpg') no-repeat center center/cover;
+}
+
+.search {
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 50%;
+}
+
+.search-button {
+  padding: 10px 20px;
+  font-size: 1.1rem;
+  border-radius: 25px;
+  border: none;
+  color: #fff;
+  background-color: #666269;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.search-button:hover {
+  background-color: #1e3c9b;
+}
+
+.container {
+  max-width: 800px; /* Increase the maximum width */
+  margin: 20px ;
+  padding: 30px; /* Increase padding for a larger appearance */
+  border-radius: 20px;
+  background-color: rgba(255, 255, 255, 0.1);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+  font-size: 1.2rem; /* Increase font size for larger text */
+}
+
+
+.city-name {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #4d79ff;
+}
+
+.temp {
+  font-size: 3rem;
+  font-weight: bold;
+  color: #f2f2f2;
+}
+
+.condition {
+  font-size: 1.2rem;
+  color: #f2f2f2;
+  text-transform: capitalize;
+}
+
+.bottom {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.details {
+  text-align: center;
+}
+
+.details .bold {
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+
+.chart-container {
+  margin-top: 20px;
+}
+
+.weather-card {
+  width: 300px; /* Set the width of each card */
+  height: auto; /* Auto height based on content */
+  padding: 20px; /* Increase padding within each card */
+  margin: 20px 0; /* Space between cards */
+  border-radius: 15px;
+  background-color: rgba(0, 0, 0, 0.5);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  
+}
+
+label {
+  margin: 4px;
+}
+.line-chart {
+  width: 100%; /* Full width of the parent */
+  height: 100%; /* Full height of the parent */
+  display: flex; /* Enable flexbox for centering */
+}
+
+
+.city {
+  display: flex;
+  align-items: center;
+
+  width: 90%;
+  height: 500px; /* Ehhh.. */
+  padding: 30px;
+}
