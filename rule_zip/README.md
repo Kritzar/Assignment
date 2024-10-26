@@ -18,6 +18,7 @@ It also comes along with an added functionality of rule combiner which help comb
 ---
 ## Technologies Used 
 Frontend -React,HTML,CSS,Javascript
+
 Backend - Flask,
 
 ## Key Components
