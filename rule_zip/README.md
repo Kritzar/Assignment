@@ -16,6 +16,9 @@ It also comes along with an added functionality of rule combiner which help comb
 ![alt text](image-1.png)
 
 ---
+## Technologies Used 
+Frontend -React,HTML,CSS,Javascript
+Backend - Flask,
 
 ## Key Components
 
@@ -35,8 +38,5 @@ Node {
   right: Node { type: "operator", ... }
 }
 
-## Technologies Used 
-Frontend -React,HTML,CSS,Javascript
-Backend - Flask,
 
 
