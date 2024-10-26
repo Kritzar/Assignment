@@ -1,0 +1,35 @@
+button {
+  padding: 10px 15px;
+  background-color: #4caf50; /* Green */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #45a049; /* Darker green */
+}
+
+.rules-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 50%;
+}
+
+textarea {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  resize: none;
+
+  width: 80%;
+  /* margin-left: 5%; */
+  /* margin-right: 5%; */
+}
+.plus-sign {
+    font-size: 30px; 
+    margin: 0.3rem;
+  }
