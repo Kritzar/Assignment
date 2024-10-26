@@ -1,5 +1,4 @@
 ## Weather App
-================================================================================================
 
 A weather app that tracks and displays minimum, maximum, average, and real-time temperatures with live, interactive charts for historical data. Users receive threshold alerts when temperatures exceed set limits, providing timely insights. It’s ideal for real-time monitoring, trend analysis, and staying updated on temperature fluctuations.
 
